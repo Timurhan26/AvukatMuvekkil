@@ -39,5 +39,12 @@ namespace AvukatMuvekkil
             fr.Show();
             this.Hide();
         }
+
+        private void btnAvukat_Click(object sender, EventArgs e)
+        {
+            AvukatGiris fr = new AvukatGiris();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

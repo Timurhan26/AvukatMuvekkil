@@ -27,9 +27,5 @@ namespace AvukatMuvekkil
         {
             Application.Exit();
         }
-
-        private void MuvekkilGiris_Load(object sender, EventArgs e)
-        {
-        }
     }
 }

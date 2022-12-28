@@ -73,6 +73,7 @@
             this.btnAvukat.TabIndex = 1;
             this.btnAvukat.Text = "Avukat";
             this.btnAvukat.UseVisualStyleBackColor = false;
+            this.btnAvukat.Click += new System.EventHandler(this.btnAvukat_Click);
             // 
             // btnKapat
             // 
