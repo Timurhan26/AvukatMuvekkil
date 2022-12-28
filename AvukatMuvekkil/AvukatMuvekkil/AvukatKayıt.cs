@@ -15,8 +15,6 @@ namespace AvukatMuvekkil
         public AvukatKayıt()
         {
             InitializeComponent();
-
-            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnKapat_Click(object sender, EventArgs e)
