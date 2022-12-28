@@ -34,6 +34,8 @@
             this.dgwAvukatlar = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTCKNO = new System.Windows.Forms.TextBox();
+            this.btnDetaylar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgwAvukatlar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,6 +52,7 @@
             this.btnGeri.Size = new System.Drawing.Size(47, 38);
             this.btnGeri.TabIndex = 29;
             this.btnGeri.UseVisualStyleBackColor = false;
+            this.btnGeri.Click += new System.EventHandler(this.btnGeri_Click);
             // 
             // btnKucult
             // 
@@ -85,20 +88,21 @@
             // 
             this.dgwAvukatlar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.dgwAvukatlar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwAvukatlar.Location = new System.Drawing.Point(13, 128);
+            this.dgwAvukatlar.Location = new System.Drawing.Point(12, 97);
             this.dgwAvukatlar.Name = "dgwAvukatlar";
-            this.dgwAvukatlar.Size = new System.Drawing.Size(975, 510);
+            this.dgwAvukatlar.Size = new System.Drawing.Size(976, 541);
             this.dgwAvukatlar.TabIndex = 32;
+            this.dgwAvukatlar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwAvukatlar_CellContentClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Trajan Pro", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.label1.Location = new System.Drawing.Point(15, 68);
+            this.label1.Location = new System.Drawing.Point(26, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 30);
+            this.label1.Size = new System.Drawing.Size(67, 29);
             this.label1.TabIndex = 33;
             this.label1.Text = "Ara : ";
             // 
@@ -106,13 +110,37 @@
             // 
             this.txtTCKNO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.txtTCKNO.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTCKNO.Font = new System.Drawing.Font("Trajan Pro", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTCKNO.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTCKNO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
-            this.txtTCKNO.Location = new System.Drawing.Point(104, 68);
+            this.txtTCKNO.Location = new System.Drawing.Point(117, 63);
             this.txtTCKNO.Multiline = true;
             this.txtTCKNO.Name = "txtTCKNO";
-            this.txtTCKNO.Size = new System.Drawing.Size(248, 30);
+            this.txtTCKNO.Size = new System.Drawing.Size(246, 28);
             this.txtTCKNO.TabIndex = 34;
+            // 
+            // btnDetaylar
+            // 
+            this.btnDetaylar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.btnDetaylar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetaylar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDetaylar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.btnDetaylar.Location = new System.Drawing.Point(762, 51);
+            this.btnDetaylar.Name = "btnDetaylar";
+            this.btnDetaylar.Size = new System.Drawing.Size(226, 40);
+            this.btnDetaylar.TabIndex = 35;
+            this.btnDetaylar.Text = "Detaylar";
+            this.btnDetaylar.UseVisualStyleBackColor = false;
+            this.btnDetaylar.Click += new System.EventHandler(this.btnDetaylar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(156, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // AvukatListeleme
             // 
@@ -120,6 +148,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnDetaylar);
             this.Controls.Add(this.txtTCKNO);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgwAvukatlar);
@@ -144,5 +174,7 @@
         private System.Windows.Forms.DataGridView dgwAvukatlar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTCKNO;
+        private System.Windows.Forms.Button btnDetaylar;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -39,6 +39,8 @@
             this.radioMusait = new System.Windows.Forms.RadioButton();
             this.radioMesgul = new System.Windows.Forms.RadioButton();
             this.btnCikis = new System.Windows.Forms.Button();
+            this.btnBilgiGuncelle = new System.Windows.Forms.Button();
+            this.btnDurum = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbAvukatResim)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,11 +88,11 @@
             // 
             this.lblIsimSoyisim.AutoSize = true;
             this.lblIsimSoyisim.BackColor = System.Drawing.Color.Transparent;
-            this.lblIsimSoyisim.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIsimSoyisim.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsimSoyisim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblIsimSoyisim.Location = new System.Drawing.Point(343, 50);
             this.lblIsimSoyisim.Name = "lblIsimSoyisim";
-            this.lblIsimSoyisim.Size = new System.Drawing.Size(253, 44);
+            this.lblIsimSoyisim.Size = new System.Drawing.Size(215, 39);
             this.lblIsimSoyisim.TabIndex = 12;
             this.lblIsimSoyisim.Text = "İsim Soyisim";
             // 
@@ -98,11 +100,11 @@
             // 
             this.lblMail.AutoSize = true;
             this.lblMail.BackColor = System.Drawing.Color.Transparent;
-            this.lblMail.Font = new System.Drawing.Font("Trajan Pro", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblMail.Location = new System.Drawing.Point(346, 94);
             this.lblMail.Name = "lblMail";
-            this.lblMail.Size = new System.Drawing.Size(76, 30);
+            this.lblMail.Size = new System.Drawing.Size(58, 29);
             this.lblMail.TabIndex = 12;
             this.lblMail.Text = "Mail";
             // 
@@ -110,11 +112,11 @@
             // 
             this.lblTCKNO.AutoSize = true;
             this.lblTCKNO.BackColor = System.Drawing.Color.Transparent;
-            this.lblTCKNO.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTCKNO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTCKNO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblTCKNO.Location = new System.Drawing.Point(179, 229);
             this.lblTCKNO.Name = "lblTCKNO";
-            this.lblTCKNO.Size = new System.Drawing.Size(191, 44);
+            this.lblTCKNO.Size = new System.Drawing.Size(166, 39);
             this.lblTCKNO.TabIndex = 12;
             this.lblTCKNO.Text = "TCKNO : ";
             // 
@@ -122,11 +124,11 @@
             // 
             this.lblTelefon.AutoSize = true;
             this.lblTelefon.BackColor = System.Drawing.Color.Transparent;
-            this.lblTelefon.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblTelefon.Location = new System.Drawing.Point(179, 295);
             this.lblTelefon.Name = "lblTelefon";
-            this.lblTelefon.Size = new System.Drawing.Size(205, 44);
+            this.lblTelefon.Size = new System.Drawing.Size(160, 39);
             this.lblTelefon.TabIndex = 12;
             this.lblTelefon.Text = "Telefon : ";
             // 
@@ -134,11 +136,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.label1.Location = new System.Drawing.Point(179, 403);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 44);
+            this.label1.Size = new System.Drawing.Size(150, 39);
             this.label1.TabIndex = 12;
             this.label1.Text = "Durum : ";
             // 
@@ -146,11 +148,11 @@
             // 
             this.radioMusait.AutoSize = true;
             this.radioMusait.BackColor = System.Drawing.Color.Transparent;
-            this.radioMusait.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioMusait.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMusait.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.radioMusait.Location = new System.Drawing.Point(647, 403);
             this.radioMusait.Name = "radioMusait";
-            this.radioMusait.Size = new System.Drawing.Size(175, 48);
+            this.radioMusait.Size = new System.Drawing.Size(138, 43);
             this.radioMusait.TabIndex = 13;
             this.radioMusait.TabStop = true;
             this.radioMusait.Text = "Müsait";
@@ -160,11 +162,11 @@
             // 
             this.radioMesgul.AutoSize = true;
             this.radioMesgul.BackColor = System.Drawing.Color.Transparent;
-            this.radioMesgul.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioMesgul.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMesgul.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.radioMesgul.Location = new System.Drawing.Point(442, 403);
             this.radioMesgul.Name = "radioMesgul";
-            this.radioMesgul.Size = new System.Drawing.Size(183, 48);
+            this.radioMesgul.Size = new System.Drawing.Size(147, 43);
             this.radioMesgul.TabIndex = 13;
             this.radioMesgul.TabStop = true;
             this.radioMesgul.Text = "Meşgul";
@@ -174,14 +176,43 @@
             // 
             this.btnCikis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCikis.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnCikis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnCikis.Location = new System.Drawing.Point(416, 523);
+            this.btnCikis.Location = new System.Drawing.Point(231, 523);
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.Size = new System.Drawing.Size(169, 77);
             this.btnCikis.TabIndex = 16;
             this.btnCikis.Text = "Çıkış Yap";
             this.btnCikis.UseVisualStyleBackColor = false;
+            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
+            // 
+            // btnBilgiGuncelle
+            // 
+            this.btnBilgiGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.btnBilgiGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBilgiGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnBilgiGuncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.btnBilgiGuncelle.Location = new System.Drawing.Point(416, 523);
+            this.btnBilgiGuncelle.Name = "btnBilgiGuncelle";
+            this.btnBilgiGuncelle.Size = new System.Drawing.Size(169, 77);
+            this.btnBilgiGuncelle.TabIndex = 17;
+            this.btnBilgiGuncelle.Text = "Bilgileri GÜncelle";
+            this.btnBilgiGuncelle.UseVisualStyleBackColor = false;
+            this.btnBilgiGuncelle.Click += new System.EventHandler(this.btnBilgiGuncelle_Click);
+            // 
+            // btnDurum
+            // 
+            this.btnDurum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.btnDurum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDurum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnDurum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
+            this.btnDurum.Location = new System.Drawing.Point(601, 523);
+            this.btnDurum.Name = "btnDurum";
+            this.btnDurum.Size = new System.Drawing.Size(169, 77);
+            this.btnDurum.TabIndex = 18;
+            this.btnDurum.Text = "Durum Güncelle";
+            this.btnDurum.UseVisualStyleBackColor = false;
+            this.btnDurum.Click += new System.EventHandler(this.btnDurum_Click);
             // 
             // AvukatAnaSayfa
             // 
@@ -189,6 +220,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.btnDurum);
+            this.Controls.Add(this.btnBilgiGuncelle);
             this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.radioMesgul);
             this.Controls.Add(this.radioMusait);
@@ -224,5 +257,7 @@
         private System.Windows.Forms.RadioButton radioMusait;
         private System.Windows.Forms.RadioButton radioMesgul;
         private System.Windows.Forms.Button btnCikis;
+        private System.Windows.Forms.Button btnBilgiGuncelle;
+        private System.Windows.Forms.Button btnDurum;
     }
 }

@@ -26,5 +26,7 @@ namespace AvukatMuvekkil
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        
     }
 }

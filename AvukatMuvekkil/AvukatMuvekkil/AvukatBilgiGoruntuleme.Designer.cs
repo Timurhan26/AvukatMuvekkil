@@ -44,7 +44,7 @@
             // 
             this.btnTut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnTut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTut.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnTut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnTut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnTut.Location = new System.Drawing.Point(542, 504);
             this.btnTut.Name = "btnTut";
@@ -57,11 +57,11 @@
             // 
             this.lblMail.AutoSize = true;
             this.lblMail.BackColor = System.Drawing.Color.Transparent;
-            this.lblMail.Font = new System.Drawing.Font("Trajan Pro", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblMail.Location = new System.Drawing.Point(286, 150);
             this.lblMail.Name = "lblMail";
-            this.lblMail.Size = new System.Drawing.Size(76, 30);
+            this.lblMail.Size = new System.Drawing.Size(58, 29);
             this.lblMail.TabIndex = 20;
             this.lblMail.Text = "Mail";
             // 
@@ -69,11 +69,11 @@
             // 
             this.lblTelefon.AutoSize = true;
             this.lblTelefon.BackColor = System.Drawing.Color.Transparent;
-            this.lblTelefon.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblTelefon.Location = new System.Drawing.Point(119, 298);
             this.lblTelefon.Name = "lblTelefon";
-            this.lblTelefon.Size = new System.Drawing.Size(205, 44);
+            this.lblTelefon.Size = new System.Drawing.Size(160, 39);
             this.lblTelefon.TabIndex = 22;
             this.lblTelefon.Text = "Telefon : ";
             // 
@@ -81,11 +81,11 @@
             // 
             this.lblIsimSoyisim.AutoSize = true;
             this.lblIsimSoyisim.BackColor = System.Drawing.Color.Transparent;
-            this.lblIsimSoyisim.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIsimSoyisim.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsimSoyisim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.lblIsimSoyisim.Location = new System.Drawing.Point(283, 106);
             this.lblIsimSoyisim.Name = "lblIsimSoyisim";
-            this.lblIsimSoyisim.Size = new System.Drawing.Size(253, 44);
+            this.lblIsimSoyisim.Size = new System.Drawing.Size(215, 39);
             this.lblIsimSoyisim.TabIndex = 24;
             this.lblIsimSoyisim.Text = "İsim Soyisim";
             // 
@@ -133,7 +133,7 @@
             // 
             this.btnMesaj.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnMesaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMesaj.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnMesaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnMesaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnMesaj.Location = new System.Drawing.Point(289, 504);
             this.btnMesaj.Name = "btnMesaj";
@@ -155,6 +155,7 @@
             this.btnGeri.Size = new System.Drawing.Size(47, 38);
             this.btnGeri.TabIndex = 28;
             this.btnGeri.UseVisualStyleBackColor = false;
+            this.btnGeri.Click += new System.EventHandler(this.btnGeri_Click);
             // 
             // AvukatBilgiGoruntuleme
             // 
