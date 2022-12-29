@@ -59,6 +59,8 @@ namespace AvukatMuvekkil
 
         private void btnGeri_Click(object sender, EventArgs e)
         {
+            AvukatGiris fr = new AvukatGiris();
+            fr.Show();
             this.Close();
         }
     }

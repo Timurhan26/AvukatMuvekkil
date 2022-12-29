@@ -47,7 +47,8 @@ namespace AvukatMuvekkil
 
                 if (MessageBox.Show("Kayıdınız Yapılmıştır", "Bilgi", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    this.Close();
+                    MuvekkilGiris fr = new MuvekkilGiris();
+                    fr.Show();
                 }
             }
             else
@@ -58,6 +59,8 @@ namespace AvukatMuvekkil
 
         private void btnGeri_Click(object sender, EventArgs e)
         {
+            MuvekkilGiris fr = new MuvekkilGiris();
+            fr.Show();
             this.Close();
         }
     }

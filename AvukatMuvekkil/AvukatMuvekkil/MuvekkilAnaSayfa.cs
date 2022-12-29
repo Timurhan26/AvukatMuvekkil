@@ -33,7 +33,7 @@ namespace AvukatMuvekkil
         private void btnAvukatlar_Click(object sender, EventArgs e)
         {
             AvukatListeleme fr = new AvukatListeleme();
-            fr.Show();
+            fr.ShowDialog();
         }
         
         private void MuvekkilAnaSayfa_Load(object sender, EventArgs e)
